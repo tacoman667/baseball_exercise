@@ -1,7 +1,7 @@
-require "rubygems" 
-require "rake" 
+require 'rubygems'
+require 'rake'
 
-task default: :spec
+task default: [:spec]
 
 task :spec do
   begin
